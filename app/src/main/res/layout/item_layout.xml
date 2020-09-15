@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="28dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icons_recycler"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tv_week_temp"/>
+
+
+    <TextView
+        android:id="@+id/tv_week_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/recycler_block_temp_current"
+        android:maxLength="4"
+        app:layout_constraintTop_toBottomOf="@id/icons_recycler"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <TextView
+        android:id="@+id/temp_recycler_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="4"
+        app:layout_constraintTop_toBottomOf="@id/tv_week_temp"
+        app:layout_constraintStart_toStartOf="@id/tv_week_temp"
+        app:layout_constraintEnd_toEndOf="@id/tv_week_temp"
+        style="@style/recycler_block_temp_min_max"/>
+    <TextView
+        android:id="@+id/temp_recycler_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="4"
+        app:layout_constraintTop_toBottomOf="@+id/temp_recycler_max"
+        app:layout_constraintStart_toStartOf="@+id/temp_recycler_max"
+        app:layout_constraintEnd_toEndOf="@id/tv_week_temp"
+        style="@style/recycler_block_temp_min_max"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

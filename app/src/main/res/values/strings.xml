@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">weather_app_final</string>
+    <string name="api_key">b35b9e82fd3a41f4abcadcdbb0768f8b</string>
+    <string name="_29">29</string>
+    <string name="month_nyear">Month \nYear</string>
+    <string name="belfast">Belfast</string>
+    <string name="now">Now</string>
+    <string name="_24">24°</string>
+    <string name="some_weather">Some Weather</string>
+    <string name="today">Today</string>
+    <string name="_28">28°</string>
+    <string name="max">Max</string>
+    <string name="_21">21°</string>
+    <string name="min">Min</string>
+    <string name="this_week">This week</string>
+    <string name="here_could_be_the_recycler_view">Here could be The Recycler View</string>
+    <string name="wind">Wind</string>
+    <string name="sw_4m_s">SW 4M/S</string>
+    <string name="humidity">Humidity</string>
+    <string name="_80">80%</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="nope">nope</string>
+    <string name="pressure">Pressure</string>
+    <string name="cloudiness">Cloudiness</string>
+    <string name="sunset">Sunset</string>
+    <string name="degree">%1s°</string>
+    <string name="speed">m/s</string>
+    <string name="pressureFormat">mb</string>
+</resources>

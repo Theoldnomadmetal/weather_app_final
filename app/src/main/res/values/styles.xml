@@ -1,0 +1,44 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="weather_block_style_small">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="fontFamily">@font/sf_pro</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="weather_block_desc_small">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="fontFamily">@font/sf_pro_regular</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="weather_block_style_other">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="fontFamily">@font/sf_pro</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="characteristic_font">
+        <item name="fontFamily">@font/sf_pro</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="recycler_block_temp_current">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="fontFamily">@font/sf_pro_regular</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="recycler_block_temp_min_max">
+        <item name="fontFamily">@font/sf_pro_regular</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+
+</resources>
